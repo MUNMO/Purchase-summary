@@ -1,0 +1,170 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.border {
+    border: 1px solid #dee2e6;
+}
+
+.b-shadow {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.16);
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.txt-color-red {
+    color: #dc3545 !important;
+}
+
+.font-weight-bold {
+    font-weight: 800;
+}
+
+.f-size-18 {
+    font-size: 18px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.hr-line {
+    height: 0;
+    margin: 1.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mr-4 {
+    margin-right: 1.5rem;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.ps-logo {
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+}
+
+.ps-details:first-child {
+    margin-top: 0;
+}
+
+.ps-details {
+    margin-bottom: 8px;
+}
+
+.ps-details span {
+    display: inline-block;
+    vertical-align: top;
+    color: #000;
+    font-size: .875rem;
+}
+
+.ps-details span:first-child {
+    width: 65%;
+    max-width: 65%;
+}
+
+.ps-details span:nth-child(2) {
+    width: 35%;
+    max-width: 35%;
+}
+
+.ps-input {
+    display: inline-block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.prod-img {
+    width: 75px;
+    height: 75px;
+}
+
+.prod-desc {
+    position: absolute;
+}
+
+.prod-qty {
+    position: absolute;
+    top: 25px;
+}
+
+.text-grey {
+    color: grey
+}
+
+.ps-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #ccc;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 1.25rem;
+    background-color: transparent;
+}
+
+.ps-tooltip {
+    position: absolute;
+    width: 150px;
+    z-index: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 2px;
+    left: 185px;
+    top: 135px;
+    box-shadow: 0 0 5px 0 #ccc;
+}
+
+.w-100 {
+    max-width: 100% !important;
+    width: 100% !important;
+}
